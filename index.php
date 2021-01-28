@@ -98,7 +98,7 @@
 
                   <li class='navbar-item'>
                     <a class="nav-link active" aria-current="page" href="#front-page">Logowanie</a>
-                  </li class='navbar-item'>
+                  </li>
 
                   <li>
                     <a class="nav-link" aria-current="page" href="#info-page">Informacje</a>
@@ -110,7 +110,7 @@
 
                   <li class='navbar-item'>
                     <a class="nav-link" href="#rules-page">Regulamin</a>
-                  </li class='navbar-item'>
+                  </li>
                   
                   <li class='navbar-item'>
                     <a class="nav-link" href="mailto:sample@mail.com">Pomoc</a>
@@ -129,6 +129,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-<!-- https://www.geeksforgeeks.org/how-to-set-active-class-to-nav-menu-from-bootstrap/ -->

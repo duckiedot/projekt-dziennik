@@ -42,12 +42,12 @@
       <div class='container-fluid d-flex' id="info-page">
 
         <div class='row m-auto justify-content-center align-self-center infoboxes'>
-            <h1>Kilka słow o projekcie</h1>
-            <span class='p-5 col-sm-12'>Technologie</span>
-            <span class='p-5 col-md-6 col-lg-8'>Funkcje Dziennika</span>
-            <span class='p-5 col-md-6 col-lg-4'>Cos tam</span>
-            <span class='p-5 col-md-6 col-lg-4'>Funkcje</span>
-            <span class='p-5 col-md-6 col-lg-8'>Opinie</span>
+            <span class='sm-12 header'>Kilka słow o projekcie</span>
+            <span class='p-4 col-sm-12 tech'>Technologie</span>
+            <span class='p-4 col-md-6 col-lg-8 funkcje'>Funkcje Dziennika</span>
+            <span class='p-4 col-md-6  col-lg-4 cel'>Cel</span>
+            <span class='p-4 col-md-6  col-lg-4 czas'>Czas</span>
+            <span class='p-4 col-md-6  col-lg-8 opinie'>Opinie</span>
         </div>
 
       </div>

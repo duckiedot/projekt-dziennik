@@ -67,9 +67,17 @@ input[type=submit]:hover{
 /* end of front page and login */
 
 
+/* info page */
+
 #info-page{
     background-color: rgb(188, 211, 255);
 }
+
+.infoboxes > .header{
+    font-size: 6vw;
+    background-color: transparent;
+}
+
 .infoboxes> span{
     text-align: center;
     border: 3px solid rgb(188, 211, 255);
@@ -78,10 +86,40 @@ input[type=submit]:hover{
 .infoboxes > span:hover{
     background-color: rgb(15, 46, 95);
 }
-.infoboxes > h1{
-    font-size: 5em;
+
+.infoboxes> span::after{
+    display: block;
+    left: 50%;
+
+    width: 0;
+    height: 4px;
+    content: "";
+    
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
+/* infoboxex content */
+.infoboxes>span:hover::after{
+    width: 100%;
+    left: 0;
+}
+.tech:hover::after{
+    content: "HTML5, CSS, JS, jQuery, PHP, Bootstrap, mysql";
+}
+.funkcje:hover::after{
+    content: "Logowanie, Dodawanie i sprawdzanie ocen, zapisywanie frekwencji, wysylanie wiadomosci";
+}
+.czas:hover::after{
+    content: "2 dzien jedziemyyyy";
+}
+.cel:hover::after{
+    content: "nauka bootstrapa, git'a oraz pierwszy projekt PHP";
+}
+.opinie:hover::after{
+    content: 'moze byc - Mama';
+}
+/* end of info page */
 
 #contact-page{
     background-color: cadetblue;

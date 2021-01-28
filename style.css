@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+div[id*='page']{
+    height: 100vh;
+}
+
+
+/* front page and login */
+#front-page {
+    padding: 2em;
+    background-color: rgb(19, 59, 122);
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+#login-box {
+    max-width: 1000px;
+    padding: 2em 0;
+       
+    box-shadow: black 1px 5px 5px;
+    background-color: rgb(21, 91, 204);
+}
+
+.login{
+    padding: 2em 0;
+    background-color: white;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 16rem;
+    width: 100%;
+    margin: 12px auto;
+    padding: 0.1em 1em;
+ 
+    border: 0;
+    border-radius: 2em;
+    outline: 0;
+
+    font-size: 1em;
+    background-color: rgb(155, 155, 155);
+}
+
+input[type=submit]:hover{
+    background-color: rgb(110, 110, 110);
+}
+
+::placeholder,input[type=submit]{
+    width: fit-content;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* end of front page and login */
+
+
+#info-page{
+    background-color: rgb(188, 211, 255);
+}
+.infoboxes> span{
+    text-align: center;
+    border: 3px solid rgb(188, 211, 255);
+    background-color: rgb(19, 58, 122);
+}
+.infoboxes > span:hover{
+    background-color: rgb(15, 46, 95);
+}
+.infoboxes > h1{
+    font-size: 5em;
+}
+
+
+#contact-page{
+    background-color: cadetblue;
+}
+#contant-page > img {
+    max-width: 20em;
+}
+
+
+#rules-page{
+    background-color: darkseagreen;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+
